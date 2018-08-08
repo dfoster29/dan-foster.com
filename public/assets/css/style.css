@@ -1,0 +1,10 @@
+.title-name {
+  font-size: 75px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-shadow: 5px 5px gray;
+}
+
+.MuiToolbar-root-37 {
+  background-color: teal;
+}
