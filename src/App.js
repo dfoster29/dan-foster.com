@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AppBar from "./components/AppBar";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <AppBar />
+        <Header />
       </div>
     );
   }

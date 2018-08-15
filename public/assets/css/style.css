@@ -2,9 +2,17 @@
   font-size: 75px;
   font-family: 'Ubuntu', sans-serif;
   color: white;
-  text-shadow: 5px 5px gray;
+  text-shadow: -3px 3px gray;
 }
 
-.MuiToolbar-root-37 {
-  background-color: teal;
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.navbar-text {
+  font-size: 100px;
+  margin-left: 20px;
 }
