@@ -12,7 +12,16 @@ body {
   background-repeat: no-repeat;
 }
 
-.navbar-text {
-  font-size: 100px;
-  margin-left: 20px;
+.jumbotron {
+  background-color: rgba(243, 237, 237, 0.5);
+}
+
+.name-text {
+  font-size: 75px;
+}
+
+.profile-image {
+  height: 200px;
+  border-radius: 50%;
+  opacity: 1;
 }
