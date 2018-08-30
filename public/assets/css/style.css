@@ -6,26 +6,31 @@
 }
 
 body {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/mountain.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 .jumbotron {
-  background-color: rgba(243, 237, 237, 0.5);
+  background-color: rgba(243, 237, 237, 0);
 }
 
 .name-text {
   font-size: 75px;
+  color: white;
+}
+
+.job-text {
+  color: lightgray;
 }
 
 .profile-image {
-  height: 200px;
+  height: 300px;
   border-radius: 50%;
   opacity: 1;
 }
 
 .component-shadow {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }

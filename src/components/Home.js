@@ -8,11 +8,11 @@ class Home extends Component {
         <div className="jumbotron text-center">
           <img
             src={ProfilePic}
-            className="img-fluid profile-image component-shadow"
+            className="img-fluid profile-image"
             alt="profile"
           />
           <div className="name-text font-weight-bold">Daniel Foster</div>
-          <h3>Full-Stack Web Developer</h3>
+          <h2 className="job-text">Full-Stack Web Developer</h2>
         </div>
       </div>
     );
