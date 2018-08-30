@@ -1,10 +1,3 @@
-.title-name {
-  font-size: 75px;
-  font-family: 'Ubuntu', sans-serif;
-  color: white;
-  text-shadow: -3px 3px gray;
-}
-
 body {
   background-image: url("../images/mountain.jpeg");
   background-size: cover;
@@ -19,6 +12,7 @@ body {
 .name-text {
   font-size: 75px;
   color: white;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .job-text {
@@ -37,4 +31,25 @@ body {
 
 .portfolio-item {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+  }
+  .profile-image {
+    height: 200px;
+    opacity: 1;
+  }
+  .name-text {
+    font-size: 50px;
+    opacity: 1;
+    color: black;
+  }
+.jumbotron {
+  background-color: rgba(243, 237, 237, .7);
+}
+.job-text {
+  color: black;
+}
 }
