@@ -46,10 +46,22 @@ body {
     opacity: 1;
     color: black;
   }
-.jumbotron {
-  background-color: rgba(243, 237, 237, .7);
+  .jumbotron {
+    background-color: rgba(243, 237, 237, .7);
+  }
+  .job-text {
+    color: black;
+  }
+  .card-padding {
+    padding: 0px;
+  }
 }
-.job-text {
-  color: black;
+
+.contact-header {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
 }
-}
+/* 
+.card-padding {
+  padding: 20px;
+} */
