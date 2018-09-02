@@ -13,7 +13,8 @@ class Home extends Component {
               alt="profile"
             />
             <div className="name-text font-weight-bold">Daniel Foster</div>
-            <h2 className="job-text">Full-Stack Web Developer</h2>
+            <h2 className="job-text">Full-Stack</h2>
+            <h2 className="job-text">Web Developer</h2>
           </div>
         </div>
       </div>
