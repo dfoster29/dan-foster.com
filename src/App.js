@@ -16,7 +16,7 @@ const App = () => (
         <Route exact path="/about" component={BioCard} />
         <Route exact path="/contact" component={ContactCard} />
         <Route exact path="/portfolio" component={PortfolioCard} />
-        <Route exact path="/resume" component ={Resume} />
+        <Route exact path="/resume" component={Resume} />
         <Route
           render={() => <h1 className="text-center">Page Not Found!</h1>}
         />

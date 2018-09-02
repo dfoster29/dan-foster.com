@@ -14,13 +14,16 @@ class PortfolioCard extends Component {
   render() {
     return (
       <div>
-        <div className="container p-3">
+        <div className="container px-3">
+          <div className="">
+            <div className="contact-header text-center">Portfolio</div>
+          </div>
           <div className="row">
             <div className="col-md-6">
               <a href="https://plenty-of-pups.herokuapp.com/">
                 <img
                   src={PlentyOfPups}
-                  className="img-fluid portfolio-item p-2 my-3"
+                  className="img-fluid portfolio-item p-2 mb-3"
                   alt="plenty of pups"
                 />
               </a>
@@ -29,7 +32,7 @@ class PortfolioCard extends Component {
               <a href="https://bootcamp-helper.herokuapp.com/">
                 <img
                   src={BootcampHelper}
-                  className="img-fluid portfolio-item p-2 my-3"
+                  className="img-fluid portfolio-item p-2 mb-3"
                   alt="bootcamp helper"
                 />
               </a>

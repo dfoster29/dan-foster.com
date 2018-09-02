@@ -5,20 +5,35 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand navbar-text px-3 py-1 my-1" href="/">
+          <a className="navbar-brand navbar-text" href="/">
             <h3 className="font-weight-bold">Daniel Foster</h3>
           </a>
-          <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
+
+          <div className="mobile-navbar">
+            <div className="row">
+              <div className="col-3 text-center">
+                <a className="" href="/about">
+                  <h4>A</h4>
+                </a>
+              </div>
+              <div className="col-3 text-center">
+                <a className="" href="/portfolio">
+                  <h4>P</h4>
+                </a>
+              </div>
+              <div className="col-3 text-center">
+                <a className="" href="/contact">
+                  <h4>C</h4>
+                </a>
+              </div>
+              <div className="col-3 text-center">
+                <a className="" href="/resume">
+                  <h4>R</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             className="collapse navbar-collapse justify-content-end"
             id="navbarNavAltMarkup"
