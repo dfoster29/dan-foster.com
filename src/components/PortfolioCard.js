@@ -15,9 +15,9 @@ class PortfolioCard extends Component {
     return (
       <div>
         <div className="container px-3">
-          <div className="">
+          {/* <div className="">
             <div className="contact-header text-center">Portfolio</div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-md-6">
               <a href="https://plenty-of-pups.herokuapp.com/">

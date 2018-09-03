@@ -5,9 +5,9 @@ class BioCard extends Component {
     return (
       <div>
         <div className="container px-5">
-          <div className="">
+          {/* <div className="">
             <div className="contact-header text-center">About</div>
-          </div>
+          </div> */}
           <div className="bio-text text-justify">
             Lorem ipsum dolor amet air plant cred selfies kickstarter irony,
             single-origin coffee hammock. Cray tumeric tilde YOLO, chillwave

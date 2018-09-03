@@ -5,12 +5,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.navbar-image {
+  z-index: 5;
+  height: 40px;
+}
+
 .bio-text {
   font-size: 18px;
   color: white;
 }
-
-
 
 .container {
   margin-top: 73px;
@@ -60,6 +63,43 @@ body {
   padding: 0px;
 }
 
+.active {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+.content-fadein {
+  -webkit-animation: fadein 3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 3s;
+  /* Internet Explorer */
+  -o-animation: fadein 3s;
+  /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.contact-image:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
 @media only screen and (max-width: 600px) {
   body {
     background-size: cover;
@@ -100,48 +140,16 @@ body {
   .contact-background {
    margin: 10px;
   }
-}
-
-/* 
-.card-padding {
-  padding: 20px;
-} */
-
-.navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  top: 0;
-}
-
-.content-fadein {
-  -webkit-animation: fadein 3s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 3s;
-  /* Internet Explorer */
-  -o-animation: fadein 3s;
-  /* Opera < 12.1 */
-  animation: fadein 3s;
-}
-
-
-
-.contact-image:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+  /* .active {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  } */
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
+}
 
-
-  .active {
-    background-color: red;
-  }

@@ -15,9 +15,9 @@ class ContactCard extends Component {
           <div className="row justify-content-center">
             <div className="col-md-12">
               <div className="">
-                <div className="">
+                {/* <div className="">
                   <div className="contact-header text-center">Contact</div>
-                </div>
+                </div> */}
                 <div className="">
                   <div className="row">
                     <div className="col-md-3 col-6 mb-3">
