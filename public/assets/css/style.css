@@ -5,6 +5,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.bio-text {
+  font-size: 18px;
+  color: white;
+}
+
+
+
 .container {
   margin-top: 73px;
 }
@@ -43,7 +50,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-
 .mobile-navbar {
   display: none;
 }
@@ -77,7 +83,7 @@ body {
     padding: 0px;
   }
   .contact-header {
-    font-size: 60px;
+    font-size: 50px;
   }
   .container {
     margin-top: 73px;
@@ -133,4 +139,9 @@ body {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+
+
+  .active {
+    background-color: red;
   }

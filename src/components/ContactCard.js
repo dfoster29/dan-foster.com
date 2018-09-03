@@ -6,7 +6,6 @@ import Instagram from "../images/instagram.png";
 import Linkedin from "../images/linkedin.png";
 import StackOverflow from "../images/stackoverflow.png";
 import Spotify from "../images/spotify.png";
-// import Twitter from "../images/twitter.png";
 
 class ContactCard extends Component {
   render() {
@@ -21,7 +20,7 @@ class ContactCard extends Component {
                 </div>
                 <div className="">
                   <div className="row">
-                    <div className="col-md-3 col-6 mb-4">
+                    <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
                         <a href="mailto:danieljfoster87@gmail.com">
                           <img
@@ -33,7 +32,7 @@ class ContactCard extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-3 col-6 mb-4">
+                    <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
                         <a
                           href="https://www.linkedin.com/in/dan-foster-8a2503126/"
@@ -49,7 +48,7 @@ class ContactCard extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-3 col-6 mb-4">
+                    <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
                         <a
                           href="https://github.com/dfoster29"
@@ -65,7 +64,7 @@ class ContactCard extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-3 col-6 mb-4">
+                    <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
                         <a
                           href="https://stackoverflow.com/users/9247974/daniel-foster?tab=profile"
@@ -86,13 +85,13 @@ class ContactCard extends Component {
             </div>
 
             <div className="col-md-12 ">
-              <div className="mb-5">
+              <div className="mb-3">
                 {/* <div className="">
                   <h1 className="contact-header">Personal</h1>
                 </div> */}
                 <div className="">
                   <div className="row justify-content-center">
-                    <div className="col-md-3 col-6 mb-4">
+                    <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
                         <a
                           href="https://www.instagram.com/fosterthedan/"
@@ -108,23 +107,7 @@ class ContactCard extends Component {
                       </div>
                     </div>
 
-                    {/* <div className="col-md-3 col-6 mb-4">
-                      <div className="contact-background">
-                        <a
-                          href="https://www.facebook.com/danfoster29"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src={Facebook}
-                            className="img-fluid contact-image"
-                            alt="facebook"
-                          />
-                        </a>
-                      </div>
-                    </div> */}
-
-                    <div className="col-md-3 col-6 mb-4">
+                    <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
                         <a
                           href="https://open.spotify.com/user/12146437690?si=16ZNT_WZQ4yHmbmoT7LvWQ&nd=1"
@@ -139,22 +122,6 @@ class ContactCard extends Component {
                         </a>
                       </div>
                     </div>
-
-                    {/* <div className="col-md-3 col-6 mb-4">
-                      <div className="contact-background">
-                        <a
-                          href="https://twitter.com/dfost29"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src={Twitter}
-                            className="img-fluid contact-image"
-                            alt="twitter"
-                          />
-                        </a>
-                      </div>
-                    </div> */}
 
                   </div>
                 </div>
