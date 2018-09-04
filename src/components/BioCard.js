@@ -4,7 +4,7 @@ class BioCard extends Component {
   render() {
     return (
       <div>
-        <div className="content-container container px-5">
+        <div className="content-container container px-4">
           {/* <div className="">
             <div className="contact-header text-center">About</div>
           </div> */}
