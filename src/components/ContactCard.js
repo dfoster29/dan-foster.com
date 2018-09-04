@@ -11,7 +11,7 @@ class ContactCard extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container ">
           <div className="row justify-content-center">
             <div className="col-md-12">
               <div className="row">
@@ -77,12 +77,12 @@ class ContactCard extends Component {
               </div>
             </div>
 
-            <div className="col-md-12 ">
+            {/* <div className="col-md-12 ">
               <div className="mb-3">
                 {/* <div className="">
                   <h1 className="contact-header">Personal</h1>
                 </div> */}
-                <div className="">
+                {/* <div className="">
                   <div className="row justify-content-center">
                     <div className="col-md-3 col-6 mb-3">
                       <div className="contact-background">
@@ -116,9 +116,9 @@ class ContactCard extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+                </div> */}
+              {/* </div>
+            </div> */} */}
           </div>
         </div>
       </div>

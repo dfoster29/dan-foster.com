@@ -29,11 +29,6 @@ a:hover {
   color: gray;
 }
 
-/* .navbar-image {
-  z-index: 5;
-  height: 40px;
-} */
-
 .navlink-col {
   text-align: center;
 }
@@ -45,6 +40,10 @@ a:hover {
 
 .container {
   margin-top: 123px;
+}
+
+.contact-container {
+  margin-top: 163px;
 }
 
 .jumbotron {
