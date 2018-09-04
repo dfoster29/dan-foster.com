@@ -15,10 +15,10 @@ class Navbar extends Component {
 
             <div className="col-md-6 col-8">
               <div className="row">
-                <div className="col-md-3 col-6 navlink-col">
+                <div className="col-md-3 col-6 navlink-col navlink-padding">
                   <NavLink to="/about" className="navbar-text font-weight-bold">About</NavLink>
                 </div>
-                <div className="col-md-3 col-6 navlink-col-right">
+                <div className="col-md-3 col-6 navlink-col-right navlink-padding">
                   <NavLink to="/portfolio" className="navbar-text font-weight-bold">Portfolio</NavLink>
                 </div>
                 <div className="col-md-3 col-6 navlink-col">
