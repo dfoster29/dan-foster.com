@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="container home-container">
+        <div className="container">
           <div className="jumbotron text-center">
             <img
               src={ProfilePic}

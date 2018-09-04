@@ -5,9 +5,36 @@ body {
   background-repeat: no-repeat;
 }
 
-.navbar-image {
+.custom-navbar {
+  background-color: white;
+}
+
+a:hover {
+  color: red;
+}
+.navbar-text {
+  padding-top: 30px;
+  margin-top: 0px;
+  font-size: 22px;
+  color: black;
+}
+
+.navbar:hover {
+  color: red;
+}
+
+.navbar-logo {
+  font-size: 60px;
+  color: gray;
+}
+
+/* .navbar-image {
   z-index: 5;
   height: 40px;
+} */
+
+.navlink-col {
+  text-align: center;
 }
 
 .bio-text {
@@ -16,7 +43,7 @@ body {
 }
 
 .container {
-  margin-top: 73px;
+  margin-top: 123px;
 }
 
 .jumbotron {
@@ -53,10 +80,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.mobile-navbar {
-  display: none;
-}
-
 .contact-background {
   background-color: #f8f9fa;
   border-radius: 50%;
@@ -64,11 +87,10 @@ body {
 }
 
 .active {
-  background-color: lightgray;
-  border-radius: 5px;
+color: red;
 }
 
-.navbar {
+.custom-navbar {
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -88,22 +110,19 @@ body {
 }
 
 .contact-image:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-size: cover;
-  }
   .profile-image {
     height: 200px;
     opacity: 1;
@@ -119,37 +138,23 @@ body {
   .job-text {
     color: black;
   }
-  .card-padding {
-    padding: 0px;
-  }
-  .contact-header {
-    font-size: 50px;
-  }
   .container {
-    margin-top: 73px;
-  }
-  .home-container {
     margin-top: 93px;
   }
-  .portfolio-container {
-    margin-top: 103px;
-  }
-  .mobile-navbar {
-    display: block;
-  }
   .contact-background {
-   margin: 10px;
+    margin: 10px;
   }
-  /* .active {
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-  } */
-  .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  .active:focus {
+    color: red;
+  }
+  .navbar-logo {
+    font-size: 50px;
+    padding-left: 10px;
+  }
+  .navlink-col {
+    text-align: right;
+  }
+  .navbar-text {
+    padding: 0px;
   }
 }
-

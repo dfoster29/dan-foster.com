@@ -5,7 +5,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <div className="container p-3">
+        <div className="container px-3 mb-4">
           <img className="img-fluid resume-img" 
           src={ResumeImage}
           alt="resumé"
