@@ -2,16 +2,16 @@ import React, { Component } from "react";
 // import Facebook from "../images/facebook.png";
 import Gmail from "../images/gmail.png";
 import Github from "../images/github.png";
-import Instagram from "../images/instagram.png";
+// import Instagram from "../images/instagram.png";
 import Linkedin from "../images/linkedin.png";
 import StackOverflow from "../images/stackoverflow.png";
-import Spotify from "../images/spotify.png";
+// import Spotify from "../images/spotify.png";
 
 class ContactCard extends Component {
   render() {
     return (
       <div>
-        <div className="container ">
+        <div className="contact-container container">
           <div className="row justify-content-center">
             <div className="col-md-12">
               <div className="row">

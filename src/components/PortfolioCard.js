@@ -14,7 +14,7 @@ class PortfolioCard extends Component {
   render() {
     return (
       <div>
-        <div className="container px-3">
+        <div className="content-container container px-3">
           {/* <div className="">
             <div className="contact-header text-center">Portfolio</div>
           </div> */}

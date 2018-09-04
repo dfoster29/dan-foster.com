@@ -33,12 +33,16 @@ a:hover {
   text-align: center;
 }
 
+.navlink-col-right {
+  text-align: center;
+}
+
 .bio-text {
   font-size: 18px;
   color: white;
 }
 
-.container {
+.content-container {
   margin-top: 123px;
 }
 
@@ -143,7 +147,7 @@ a:hover {
   .job-text {
     color: black;
   }
-  .container {
+  .content-container {
     margin-top: 93px;
   }
   .contact-background {
@@ -165,5 +169,8 @@ a:hover {
   }
   .navlink-padding {
     padding-top: 8px;
+  }
+  .navlink-padding-right {
+    padding-right: 0px;
   }
 }
