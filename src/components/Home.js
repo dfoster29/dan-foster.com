@@ -5,7 +5,9 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="container content-container">
+
+        {/* need to restyle, hard to read on smaller screens due to text color */}
+        <div className="container home-container">
           <div className="jumbotron text-center">
             <img
               src={ProfilePic}

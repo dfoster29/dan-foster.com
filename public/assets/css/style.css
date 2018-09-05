@@ -78,6 +78,10 @@ a:hover {
   width: 100%;
 }
 
+.home-container {
+  margin-top: 73px;
+}
+
 .contact-header {
   font-size: 80px;
   color: white;
@@ -172,5 +176,8 @@ a:hover {
   }
   .navlink-padding-right {
     padding-right: 0px;
+  }
+  .home-container {
+    margin-top: 103px;
   }
 }
