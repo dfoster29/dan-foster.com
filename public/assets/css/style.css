@@ -9,15 +9,8 @@ body {
   background-color: white;
 }
 
-a:hover {
-  color: red;
-}
-
-.navbar-text {
-  padding-top: 30px;
-  margin-top: 0px;
-  font-size: 22px;
-  color: black;
+.jumbotron {
+  background-color: rgba(243, 237, 237, 0);
 }
 
 .navbar:hover {
@@ -29,29 +22,21 @@ a:hover {
   color: gray;
 }
 
-.navlink-col {
-  text-align: center;
-}
-
-.navlink-col-right {
-  text-align: center;
-}
-
 .bio-text {
   font-size: 18px;
   color: white;
 }
 
 .content-container {
-  margin-top: 123px;
+  margin-top: 53px;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .contact-container {
-  margin-top: 163px;
-}
-
-.jumbotron {
-  background-color: rgba(243, 237, 237, 0);
+  margin-top: 73px;
 }
 
 .name-text {
@@ -61,7 +46,7 @@ a:hover {
 }
 
 .job-text {
-  color: lightgray;
+  color: white;
 }
 
 .profile-image {
@@ -78,10 +63,6 @@ a:hover {
   width: 100%;
 }
 
-.home-container {
-  margin-top: 73px;
-}
-
 .contact-header {
   font-size: 80px;
   color: white;
@@ -94,20 +75,11 @@ a:hover {
   padding: 0px;
 }
 
-.active {
-  color: red;
-  padding-top: 30px;
-}
-
 .custom-navbar {
   position: fixed;
   width: 100%;
   z-index: 2;
   top: 0;
-}
-
-.navlink-padding {
-
 }
 
 .content-fadein {
@@ -152,30 +124,15 @@ a:hover {
     color: black;
   }
   .content-container {
-    margin-top: 93px;
+    margin-top: 73px;
   }
   .contact-background {
     margin: 10px;
-  }
-  .active:focus {
-    color: red;
   }
   .navbar-logo {
     font-size: 50px;
     padding-left: 10px;
     padding-top: 5px;
-  }
-  .navlink-col {
-    text-align: right;
-  }
-  .navbar-text {
-    padding: 0px;
-  }
-  .navlink-padding {
-    padding-top: 8px;
-  }
-  .navlink-padding-right {
-    padding-right: 0px;
   }
   .home-container {
     margin-top: 103px;

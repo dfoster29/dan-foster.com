@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import Info from "../images/info.png";
-import Portfolio from "../images/portfolio.png";
 
 class Navbar extends Component {
   render() {
@@ -13,32 +11,6 @@ class Navbar extends Component {
           </a>
 
           <div className="mobile-navbar">
-            <div className="row">
-              <NavLink to="/about">
-                <div className="col-3 text-center">
-                  <img src={Info} className="navbar-image" alt="info" />
-                </div>
-              </NavLink>
-              <NavLink to="/portfolio">
-                <div className="col-3 text-center">
-                  <img
-                    src={Portfolio}
-                    className="navbar-image"
-                    alt="portfolio"
-                  />
-                </div>
-              </NavLink>
-              <NavLink to="/contact">
-                <div className="col-3 text-center">
-                  <i class="fas fa-at" />
-                </div>
-              </NavLink>
-              <NavLink to="/resume">
-                <div className="col-3 text-center">
-                  <i class="far fa-file" />
-                </div>
-              </NavLink>
-            </div>
           </div>
 
           <div
@@ -51,9 +23,9 @@ class Navbar extends Component {
                   <h4>About</h4>
                 </a>
               </NavLink>
-              <NavLink to="/portfolio">
+              <NavLink to="/projects">
                 <a className="nav-item nav-link">
-                  <h4>Portfolio</h4>
+                  <h4>Projects</h4>
                 </a>
               </NavLink>
               <NavLink to="/contact">
