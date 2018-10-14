@@ -18,25 +18,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf README.md src webroot package.json"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "cname": "nope.org",
-    "prep": [
-      "react-scripts start",
-      "react-scripts build",
-      "react-scripts test --env=jsdom",
-      "react-scripts eject",
-      "gh-pages-deploy",
-      "rimraf README.md src webroot package.json"
-    ],
-    "commit": "a custom commit message",
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
+    "eject": "react-scripts eject"
   }
 }
