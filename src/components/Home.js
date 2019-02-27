@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ProfilePic from "../images/profile-pic.jpg";
+import ContactCard from "./ContactCard";
+import PortfolioCard from "./PortfolioCard";
 
 class Home extends Component {
   render() {
@@ -15,10 +17,19 @@ class Home extends Component {
             />
 
             <div className="name-text">Daniel Foster</div>
-            <h2 className="job-text">Front-End</h2>
+            {/* <h2 className="job-text">Front-End</h2> */}
             <h2 className="job-text">Web Developer</h2>
           </div>
         </div>
+
+        <PortfolioCard />
+
+        <div className="mx-4 p-5">
+          <ContactCard />
+        </div>
+
+
+
       </div>
     );
   }

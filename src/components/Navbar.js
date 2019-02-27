@@ -18,7 +18,7 @@ class Navbar extends Component {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <NavLink to="/about">
+              {/* <NavLink to="/about">
                 <a className="nav-item nav-link">
                   <h4>About</h4>
                 </a>
@@ -32,7 +32,7 @@ class Navbar extends Component {
                 <a className="nav-item nav-link">
                   <h4>Contact</h4>
                 </a>
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/resume">
                 <a className="nav-item nav-link">
                   <h4>Resumé</h4>
