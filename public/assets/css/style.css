@@ -1,20 +1,35 @@
-body {
+/* body {
   background-image: url("../images/mountain.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+} */
+
+.section-tab {
+  background-color: gray;
+  color: white;
 }
 
 .custom-navbar {
   background-color: white;
 }
 
-.jumbotron {
-  background-color: rgba(243, 237, 237, 0);
+.home-container {
+  margin-top: 135px;
 }
 
-.navbar:hover {
-  color: red;
+.portfolio-item {
+  width: 300px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.portfolio-item:hover {
+  opacity: .5;
+}
+
+.contact-image {
+  width: 50px;
 }
 
 .navbar-logo {
@@ -22,76 +37,23 @@ body {
   color: gray;
 }
 
-.bio-text {
-  font-size: 18px;
-  color: white;
-}
-
-.content-container {
-  margin-top: 53px;
-}
-
-.active {
-  text-decoration: underline;
-}
-
-.contact-container {
-  margin-top: 73px;
+.home-container {
+  margin-top: 180px;
 }
 
 .name-text {
   font-size: 75px;
-  color: white;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .job-text {
-  color: white;
 }
 
 .profile-image {
   height: 300px;
-  border-radius: 50%;
+  width: 300px;
+  border-radius: 10%;
   opacity: 1;
-}
-
-.component-shadow {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-}
-
-.portfolio-item {
-  width: 100%;
-}
-
-.contact-header {
-  font-size: 80px;
-  color: white;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.contact-background {
-  background-color: #f8f9fa;
-  border-radius: 50%;
-  padding: 0px;
-}
-
-.custom-navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  top: 0;
-}
-
-.content-fadein {
-  -webkit-animation: fadein 3s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 3s;
-  /* Internet Explorer */
-  -o-animation: fadein 3s;
-  /* Opera < 12.1 */
-  animation: fadein 3s;
 }
 
 .contact-image:hover {
@@ -108,33 +70,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .profile-image {
-    height: 200px;
-    opacity: 1;
-  }
   .name-text {
-    font-size: 45px;
-    opacity: 1;
-    color: black;
-  }
-  .jumbotron {
-    background-color: rgba(243, 237, 237, .7);
-  }
-  .job-text {
-    color: black;
-  }
-  .content-container {
-    margin-top: 73px;
-  }
-  .contact-background {
-    margin: 10px;
-  }
-  .navbar-logo {
     font-size: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
   }
   .home-container {
-    margin-top: 103px;
+    margin-top: 135px;
   }
 }

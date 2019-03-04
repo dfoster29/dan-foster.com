@@ -4,7 +4,7 @@ import Home from "./components/Home";
 // import ContactCard from "./components/ContactCard";
 // import PortfolioCard from "./components/PortfolioCard";
 import Navbar from "./components/Navbar";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import { Route, HashRouter } from "react-router-dom";
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
             {/* <Route path="/about" component={BioCard} />
             <Route path="/contact" component={ContactCard} />
             <Route path="/projects" component={PortfolioCard} /> */}
-            <Route path="/resume" component={Resume} />
+            {/* <Route path="/resume" component={Resume} /> */}
           </div>
         </div>
       </HashRouter>
