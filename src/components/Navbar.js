@@ -13,13 +13,12 @@ class Navbar extends Component {
             <h3 className="font-weight-bold navbar-logo">DF</h3>
           </a>
 
-            <div className="navbar-nav">
+          <div className="navbar-nav">
             <div className="row justify-content-center">
-            
-            <a href="mailto:danieljfoster87@gmail.com">
+              <a href="mailto:danieljfoster87@gmail.com">
                 <img
                   src={Gmail}
-                  className="img-fluid contact-image m-2"
+                  className="img-fluid contact-image mx-2"
                   alt="gmail"
                 />
               </a>
@@ -30,7 +29,7 @@ class Navbar extends Component {
               >
                 <img
                   src={Linkedin}
-                  className="img-fluid contact-image m-2"
+                  className="img-fluid contact-image mx-2"
                   alt="linkedin"
                 />
               </a>
@@ -41,7 +40,7 @@ class Navbar extends Component {
               >
                 <img
                   src={Github}
-                  className="img-fluid contact-image m-2"
+                  className="img-fluid contact-image mx-2"
                   alt="github"
                 />
               </a>
@@ -52,15 +51,12 @@ class Navbar extends Component {
               >
                 <img
                   src={StackOverflow}
-                  className="img-fluid contact-image m-2"
+                  className="img-fluid contact-image mx-2"
                   alt="stack overflow"
                 />
               </a>
-            
             </div>
-
-            </div>
-          
+          </div>
         </nav>
       </div>
     );

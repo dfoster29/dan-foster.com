@@ -6,27 +6,21 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="container home-container mb-5">
-          <div className="row justify-content-center">
-            <div className="col-md-4 text-center">
-              <img
-                src={ProfilePic}
-                className="profile-image shadow-lg"
-                alt="profile"
-              />
+        <div className="home-container">
+          <div className="row my-5">
+            <div className="col-md-3" />
+            <div className="col-md-3">
+              <img src={ProfilePic} className="profile-image" alt="profile" />
             </div>
+            <div className="col-md-3 name-section">
+              <h1 className="text-center">Daniel Foster</h1>
+              <h1 className="text-center">Web Developer</h1>
 
-            <div className="col-md-8 text-center">
-              <div className="name-text mt-5">
-                Daniel Foster
-                {/* <h2 className="job-text">Front-End</h2> */}
-                <h2 className="job-text">Web Developer</h2>
-              </div>
             </div>
+            <div className="col-md-3" />
           </div>
+          <PortfolioCard />
         </div>
-
-        <PortfolioCard />
       </div>
     );
   }
