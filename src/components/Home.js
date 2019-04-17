@@ -8,16 +8,18 @@ class Home extends Component {
       <div>
         <div className="home-container">
           <div className="row my-5">
-            <div className="col-md-3" />
-            <div className="col-md-3">
+
+
+            <div className="col-md-6 col-12 text-center align-content-center">
               <img src={ProfilePic} className="profile-image" alt="profile" />
             </div>
-            <div className="col-md-3 name-section">
-              <h1 className="text-center">Daniel Foster</h1>
-              <h1 className="text-center">Web Developer</h1>
 
+            <div className="col-md-6 text-center name-section align-content-center">
+              <h1>Daniel Foster</h1>
+              <h1>Web Developer</h1>
             </div>
-            <div className="col-md-3" />
+
+
           </div>
           <PortfolioCard />
         </div>
