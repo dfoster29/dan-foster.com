@@ -14,7 +14,7 @@
 
 .home-grid {
   display: grid;
-  grid-template-columns: minmax(250px auto), 1fr 1fr;
+  grid-template-columns: minmax(250px, auto), 1fr;
 }
 
 .project-grid {
