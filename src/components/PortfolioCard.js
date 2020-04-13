@@ -14,7 +14,8 @@ class PortfolioCard extends Component {
   render() {
     return (
       <div>
-        <div className="text-center">
+
+        <div className="project-grid">
           <a href="https://plenty-of-pups.herokuapp.com/">
             <img
               src={PlentyOfPups}

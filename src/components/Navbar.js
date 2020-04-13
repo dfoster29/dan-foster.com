@@ -8,7 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="d-flex navbar fixed-top navbar-light bg-light py-0 shadow-lg">
+        <nav className="d-flex navbar fixed-top navbar-light bg-light py-0 shadow-lg pr-4">
           <a className="navbar-brand navbar-text" href="/">
             <h3 className="font-weight-bold navbar-logo">DF</h3>
           </a>
@@ -18,7 +18,7 @@ class Navbar extends Component {
               <a href="mailto:danieljfoster87@gmail.com">
                 <img
                   src={Gmail}
-                  className="img-fluid contact-image mx-2"
+                  className="img-fluid contact-image mx-1"
                   alt="gmail"
                 />
               </a>
@@ -29,7 +29,7 @@ class Navbar extends Component {
               >
                 <img
                   src={Linkedin}
-                  className="img-fluid contact-image mx-2"
+                  className="img-fluid contact-image mx-1"
                   alt="linkedin"
                 />
               </a>
@@ -40,7 +40,7 @@ class Navbar extends Component {
               >
                 <img
                   src={Github}
-                  className="img-fluid contact-image mx-2"
+                  className="img-fluid contact-image mx-1"
                   alt="github"
                 />
               </a>
@@ -51,7 +51,7 @@ class Navbar extends Component {
               >
                 <img
                   src={StackOverflow}
-                  className="img-fluid contact-image mx-2"
+                  className="img-fluid contact-image mx-1"
                   alt="stack overflow"
                 />
               </a>

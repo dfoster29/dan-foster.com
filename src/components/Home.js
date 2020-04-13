@@ -7,22 +7,18 @@ class Home extends Component {
     return (
       <div>
         <div className="home-container">
-          <div className="row my-5">
-
-
-            <div className="col-md-6 col-12 text-center align-content-center">
+          <div className="home-grid">
+            <div className="profile-section">
               <img src={ProfilePic} className="profile-image" alt="profile" />
             </div>
 
-            <div className="col-md-6 text-center name-section align-content-center">
+            <div className="name-section">
               <h1>Daniel Foster</h1>
               <h1>Web Developer</h1>
             </div>
-
-
           </div>
-          <PortfolioCard />
         </div>
+        <PortfolioCard />
       </div>
     );
   }
