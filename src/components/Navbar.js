@@ -9,8 +9,8 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="d-flex navbar fixed-top navbar-light bg-light py-0 shadow-lg pr-4">
-          <a className="navbar-brand navbar-text" href="/">
-            <h3 className="font-weight-bold navbar-logo">DF</h3>
+          <a className="navbar-brand navbar-text" href="/"> 
+            <h3 className="font-weight-bold navbar-logo">&lt;DF /&gt;</h3>
           </a>
 
           <div className="navbar-nav">

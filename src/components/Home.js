@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfilePic from "../images/profile-pic.jpg";
+import ProfilePic from "../images/willow.JPG";
 import PortfolioCard from "./PortfolioCard";
 
 class Home extends Component {
@@ -10,12 +10,30 @@ class Home extends Component {
           <div className="home-grid">
             <div className="profile-section">
               <img src={ProfilePic} className="profile-image" alt="profile" />
+              <p className="img-name">Daniel Foster</p>
+              <p className="img-role">Front End Developer</p>
+
             </div>
 
-            <div className="name-section">
-              <h1>Daniel Foster</h1>
-              <h1>Web Developer</h1>
-            </div>
+            {/* <div className="skills-section">
+              <h2>skills:</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CSS Grid</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>NPM</li>
+                <li>Github</li>
+                <li>Node</li>
+              </ul>
+
+            </div> */}
+
+            {/* <div className="name-section">
+              <h1 className="name">Daniel Foster</h1>
+              <h1 className="title">Web Developer</h1>
+            </div> */}
           </div>
         </div>
         <PortfolioCard />
