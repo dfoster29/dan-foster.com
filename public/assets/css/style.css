@@ -28,6 +28,10 @@ i {
   margin-right: -10px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .home-container {
   max-width: 850px;
   margin: 150px auto 0;
@@ -35,7 +39,7 @@ i {
 
 .home-grid {
   display: grid;
-  /* grid-template-columns: minmax(200px, auto) minmax(250px, auto); */
+  grid-template-columns: minmax(200px, auto) minmax(250px, auto);
   margin: 25px;
 }
 
@@ -51,16 +55,18 @@ i {
 .profile-section {
   justify-self: center;
   font-family: 'Permanent Marker', cursive;
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 5px 15px #000;
   transform: rotate(-7deg);
   line-height: 1.25em;
   font-size: 2em;
+
 }
 
 .skills-section {
   font-family: 'Permanent Marker', cursive;
   padding: 20px;
   justify-self: center;
+  margin-left: 75px;
 }
 
 .skills-section ul {
@@ -74,7 +80,7 @@ i {
 }
 
 .img-role {
-  padding:  0 10px 15px;
+  padding: 0 10px 15px;
   text-align: right;
   /* transform: rotate(-15deg); */
   margin: 0;
@@ -195,6 +201,7 @@ i {
   }
 
 }
+
 @media screen and (max-width: 450px) {
   .profile-section {
     font-size: 1.75em;
@@ -205,3 +212,53 @@ a {
   justify-self: center;
 }
 
+/* post-it note styling  */
+
+.postit {
+  line-height: 1.25em;
+  width: 325px;
+  margin: 25px;
+  min-height: 325px;
+  max-height: 325px;
+  padding: 10px 20px;
+  position: relative;
+  border: 1px solid #E8E8E8;
+  border-top: 20px solid #fdfd86;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+  border-bottom-right-radius: 60px 5px;
+  display: inline-block;
+  background: #ffff88;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(81%, #ffff88), color-stop(82%, #ffff88), color-stop(82%, #ffff88), color-stop(100%, #ffffc6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff88', endColorstr='#ffffc6', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.postit:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -0px;
+  bottom: 20px;
+  width: 200px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.40);
+  -moz-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+}

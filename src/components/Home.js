@@ -15,8 +15,9 @@ class Home extends Component {
 
             </div>
 
-            {/* <div className="skills-section">
-              <h2>skills:</h2>
+            <div className="skills-section">
+              <div className="postit">
+              <h2>skills</h2>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -27,8 +28,8 @@ class Home extends Component {
                 <li>Github</li>
                 <li>Node</li>
               </ul>
-
-            </div> */}
+              </div>
+            </div>
 
             {/* <div className="name-section">
               <h1 className="name">Daniel Foster</h1>
@@ -36,7 +37,7 @@ class Home extends Component {
             </div> */}
           </div>
         </div>
-        <PortfolioCard />
+        {/* <PortfolioCard /> */}
       </div>
     );
   }
