@@ -40,7 +40,8 @@ ul {
 .home-grid {
   display: grid;
   grid-template-columns: minmax(200px, auto) minmax(250px, auto);
-  margin: 25px;
+  margin: auto;
+  grid-gap: 25px;
 }
 
 .project-grid {
@@ -59,14 +60,12 @@ ul {
   transform: rotate(-7deg);
   line-height: 1.25em;
   font-size: 2em;
-
 }
 
 .skills-section {
   font-family: 'Permanent Marker', cursive;
   padding: 20px;
   justify-self: center;
-  margin-left: 75px;
 }
 
 .skills-section ul {
@@ -200,11 +199,15 @@ ul {
     margin-top: 150px;
   }
 
+  .profile-section {
+    max-width: 300px;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
   .profile-section {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 }
 
@@ -261,4 +264,20 @@ a {
   -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
   -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
   transform: matrix(-1, -0.1, 0, 1, 0, 0);
+}
+
+.postit h2 {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.skills-grid p {
+  margin: 0;
 }

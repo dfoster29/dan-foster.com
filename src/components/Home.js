@@ -18,23 +18,21 @@ class Home extends Component {
             <div className="skills-section">
               <div className="postit">
               <h2>skills</h2>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>CSS Grid</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>NPM</li>
-                <li>Github</li>
-                <li>Node</li>
-              </ul>
+              <div class="skills-grid">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>CSS Grid</p>
+                <p>Javascript</p>
+                <p>React</p>
+                <p>NPM</p>
+                <p>Github</p>
+                <p>Node</p>
+                <p>jQuery</p>
+              </div>
               </div>
             </div>
 
-            {/* <div className="name-section">
-              <h1 className="name">Daniel Foster</h1>
-              <h1 className="title">Web Developer</h1>
-            </div> */}
+
           </div>
         </div>
         {/* <PortfolioCard /> */}
