@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ProfilePic from "../images/willow.JPG";
-import PortfolioCard from "./PortfolioCard";
+// import PortfolioCard from "./PortfolioCard";
 
 class Home extends Component {
   render() {
@@ -18,7 +18,7 @@ class Home extends Component {
             <div className="skills-section">
               <div className="postit">
               <h2>skills</h2>
-              <div class="skills-grid">
+              <div className="skills-grid">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>CSS Grid</p>
@@ -28,6 +28,7 @@ class Home extends Component {
                 <p>Github</p>
                 <p>Node</p>
                 <p>jQuery</p>
+                <p></p>
               </div>
               </div>
             </div>
