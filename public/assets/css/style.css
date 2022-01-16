@@ -33,7 +33,7 @@ ul {
 }
 
 .home-container {
-  max-width: 850px;
+  max-width: 100%;
   margin: 150px auto 0;
 }
 
@@ -42,6 +42,8 @@ ul {
   grid-template-columns: minmax(200px, auto) minmax(250px, auto);
   margin: auto;
   grid-gap: 25px;
+  align-items: center;
+  justify-items: center;
 }
 
 .project-grid {
@@ -64,7 +66,7 @@ ul {
 
 .skills-section {
   font-family: 'Permanent Marker', cursive;
-  padding: 20px;
+  /* padding: 20px; */
   justify-self: center;
 }
 
