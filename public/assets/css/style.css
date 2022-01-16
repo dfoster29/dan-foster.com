@@ -44,6 +44,8 @@ ul {
   grid-gap: 25px;
   align-items: center;
   justify-items: center;
+  max-width: 100%;
+  width: 900px;
 }
 
 .project-grid {
